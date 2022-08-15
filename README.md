@@ -1,5 +1,10 @@
 # deploy_virtualisation
-We have extracted the application into the folder with the vagrantfile. Then in the vagrantfile we have added a line of code to sync the new app folder with our VM
+We have extracted the application into the folder with the vagrantfile.
+
+We also installed bundler and made sure it is working by running:
+![image](https://user-images.githubusercontent.com/110176257/184634233-7635af48-d6bd-4a23-ae57-ff948d5ddfe4.png)
+
+Then in the vagrantfile we have added a line of code to sync the new app folder with our VM.
 
 ```ruby 
 #vagrant
@@ -31,7 +36,5 @@ After adding this code:
 - cd app, then pwd confirms we are inside the app folder on our virtual machine:
 ![image](https://user-images.githubusercontent.com/110176257/184627791-8457ffb6-2320-4a99-996b-d2b2f5b15ea3.png)
 
-We also installed bundle and made sure it is working by running:
-![image](https://user-images.githubusercontent.com/110176257/184634233-7635af48-d6bd-4a23-ae57-ff948d5ddfe4.png)
 
 
