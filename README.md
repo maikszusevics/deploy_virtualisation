@@ -60,3 +60,9 @@ After adding this code:
 ## nodejs install
 in order to get nodejs v6 i used ` curl https://deb.nodesource.com/setup_6.x | sudo -E bash - `
 
+after cloning the repo with the source code and replacing the app and enironments folders in my virtualmachine directory, I ran `npm install` and `npm start` to get the application running on port 3000:
+![image](https://user-images.githubusercontent.com/110176257/184650263-4b0500b5-2f52-493b-8818-d0494016266a.png)
+
+and if i go to http://192.168.10.100:3000/ i can now see the app is running:
+
+![image](https://user-images.githubusercontent.com/110176257/184650375-01c5d41c-c4bf-4aea-9c5f-4dd208d511d2.png)
