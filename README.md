@@ -57,4 +57,6 @@ After adding this code:
 ![image](https://user-images.githubusercontent.com/110176257/184627791-8457ffb6-2320-4a99-996b-d2b2f5b15ea3.png)
 
 
+## nodejs install
+in order to get nodejs v6 i used ` curl https://deb.nodesource.com/setup_6.x | sudo -E bash - `
 
